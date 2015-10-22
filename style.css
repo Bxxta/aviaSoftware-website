@@ -1,0 +1,440 @@
+  @font-face {
+        font-family:font;
+        src:url('font/Skynet.Enterprise™.ttf');
+      }
+#body-style 
+{
+margin-bottom:0px;
+width:100%;
+height:1800px;
+background-color:#EEEEEE;
+}
+
+#kontener1 
+{
+width:80%;
+margin-left:10%;
+margin-right:10%;
+background-color:white;
+min-height:100%;
+position:relative;
+}
+#logo
+{
+width:100%;
+float:right;
+margin-bottom:20px;
+display:inline;
+}
+
+.miejsce-na-reklame {
+border-bottom-style:dashed;
+border-bottom-width:100%;
+border-bottom-color:DodgerBlue;
+border-top-style:dashed;
+border-top-width:80%;
+border-top-color:DodgerBlue;
+margin-top:5px;
+margin-bottom:5px;
+height:150px;
+clear:both;
+}
+
+#kontener2 {
+padding-left:10px;
+padding-right:10px;
+margin-top:20px;
+width:100%;
+}
+
+#menu-boczne {
+padding-left:0px;
+display:block;
+float:left;
+width:15%;
+height:1080px;
+background-image:url("Image/tex1.png");
+}
+
+.button 
+{
+
+margin-top:20px;
+text-align:left;
+}
+
+.img-button {
+padding-right:10px;
+}
+
+.button-style {
+border:inherit;
+background-image:inherit;
+background-color:inherit;
+font-size:15px;
+font-family:Arial;
+color:white;
+}
+
+.a-href-style:hover
+	{
+	cursor: pointer;
+	background-color: gray;
+	}
+
+.a-href-style:link
+{
+background-image:url("Image/tex1.png");
+}
+	
+.a-href-style:visited
+{
+background-color:gray;
+}
+
+
+.line {
+width:5px;
+height:60%;
+background-color:DodgerBlue;
+float:left;
+margin-left:50px;
+}
+
+#tresc-strony {
+width:70%;
+height:60%;
+float:left;
+margin-left:50px;
+border-bottom-color:gray;
+border-bottom-style:dashed;
+border-bottom-width:1px;
+}
+
+#tresc-styl
+{
+padding-top:30px;
+padding-bottom:30px;
+margin-top:20px;
+height:30%;
+
+background-color:gray;
+display:inline;
+}
+
+#kontener3{
+width:100%;
+display:inline;
+}
+
+.kontener4
+
+{
+padding-top:20px;
+clear:both;
+display:inherit;
+width:76%;
+}
+
+
+
+.menu-gorne {
+width:100%;
+height:40px;
+margin-bottom:20px;
+background-color:#3399FF;
+display:flex;
+}
+
+.button-2
+{
+width:34%;
+}
+
+.button-style-2 {
+border:inherit;
+background-image:inherit;
+background-color:inherit;
+text-decoration:none;
+font-size:15px;
+font-family:Arial;
+color:white;
+width:100%;
+border-left-style:solid;
+border-left-color:white;
+border-left-width:1px;
+height:40px;
+
+}
+
+.button-style-2:hover
+	{
+	cursor: pointer;
+	background-color: darkblue;
+	}
+
+	
+a
+	{
+	text-decoration:none;
+	color:white;
+	width:100%;
+	}
+
+a:link 
+{
+background-color:#3399FF;
+color:white;
+}
+	
+a:visited
+{
+background-color:darkblue;
+color:white;
+}
+
+	
+	
+.image {
+padding-bottom:40px;
+}
+#footer {
+position:absolute;
+bottom:0;
+height:100px;
+width:100%;
+background-color:#3399FF;
+margin:0px;
+padding:0px;
+clear:both;
+}
+
+.footer-style {
+padding-top:10px;
+color:white;
+size:20px;
+text-align:center;
+}
+
+.lokalizacja-styl 
+{
+float:left;
+width:40%;
+color:gray;
+text-align:center;
+}
+
+.lokalizacja-obraz
+{
+display:inherit;
+float:left;
+margin-left: 30px;
+}
+
+.aktualnosci-ramka
+{
+width:100px;
+height:100px;
+background-color:DodgerBlue;
+vertical-align:middle;
+float:left;
+
+}
+
+.news-style 
+{
+padding-left:20px;
+padding-top:20px;
+}
+
+.news-text-style
+{
+float:left;
+}
+
+.ramka-news
+{
+border-top-color:DodgerBlue;
+border-top-style:dashed;
+border-top-width:1px;
+padding-top:20px;
+border-bottom-color:DodgerBlue;
+border-bottom-style:dashed;
+border-bottom-width:1px;
+}
+
+#kontener4{
+width:100%;
+display:inline;
+width:50%;
+}
+
+.topic-style {
+font-size:20px;
+color: gray;
+font-family: font;
+border-bottom-color:gray;
+border-bottom-style:solid;
+border-bottom-width:0.5px;
+
+}
+.news-tresc-style{
+margin-top:10px;
+margin-bottom:10px;
+width:100%;
+height:250px;
+background-color:DodgerBlue;
+color:white;
+font-size:20px;
+border-radius:10px;
+
+}
+
+.ramka-shop
+{
+border-top-color:DodgerBlue;
+border-top-style:dashed;
+border-top-width:1px;
+padding-top:20px;
+border-bottom-color:DodgerBlue;
+border-bottom-style:dashed;
+border-bottom-width:1px;
+}
+
+.shop-ramka
+{
+width:100px;
+height:100px;
+background-color:DodgerBlue;
+vertical-align:middle;
+float:left;
+
+}
+
+.shop-style 
+{
+padding-left:20px;
+padding-top:20px;
+}
+
+.shop-text-style
+{
+float:left;
+}
+
+
+#shop-tresc-style{
+margin-top:10px;
+margin-bottom:10px;
+padding-left:10px;
+width:100%;
+height:600px;
+background-color:DodgerBlue;
+color:white;
+font-size:20px;
+border-radius:10px;
+display:block;
+
+}
+
+.button-style-5{
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button-style-5:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+ol 
+{
+padding:0px;
+margin:0px;
+list-style-type:none;
+}
+
+ol > li {
+background-color:DodgerBlue;
+color:white;
+font-size:30px;
+font-family:font;
+padding-left:10px;
+ margin-left:1px;
+}
+
+
+ol a {
+  display:block;
+  color:#000;
+  text-decoration:none;
+  padding:0 5px;
+}
+
+
+ol > li > ul {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+  display:none
+}
+
+ol > li:first-child {
+  margin-left:0;
+}
+
+
+ol > li > ul > li > a {
+  border-top:1px solid #FFF;
+}
+
+ol > li > ul > li {
+background-color:DodgerBlue;
+}
+
+ol > li > ul > li:hover
+{
+cursor:pointer;
+background-color:lightblue;
+}
+
+
+ol > li:hover > ul {
+  display:block;
+}
+
+.sub-ramka {
+border-color:white;
+border-style:solid;
+border-width:1px;
+margin:10px;
+margin-left:5px;
+}
+
+.sub-text {
+font-family: font;
+color:white;
+text-align:center;
+font-size:20px;
+}
+
+td {
+color:white;
+}
